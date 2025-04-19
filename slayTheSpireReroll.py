@@ -1,7 +1,3 @@
-# IN SHORTCUTS APP, write this:
-# python3 /Users/jacob/Downloads/slayTheSpireReroll.py
-# and add to menu bar, so you can quickly click to run it
-
 import pyautogui # https://pyautogui.readthedocs.io/en/latest/quickstart.html
 pyautogui.FAILSAFE = True
 import time
@@ -55,8 +51,11 @@ def automate_clicks():
     # Final action
     time.sleep(1.3)
     pyautogui.click(631, 1026)
-    time.sleep(0.2)
-    pyautogui.click()
+    
+    # second click for QA purposes
+    # time.sleep(0.2)
+    # pyautogui.click()
+
     # pyautogui.click(467, 1022)
 
 # Run the automation
