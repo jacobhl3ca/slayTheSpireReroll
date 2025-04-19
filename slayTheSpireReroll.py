@@ -3,12 +3,6 @@ pyautogui.FAILSAFE = True
 import time
 import logging
 import os
-    
-# CONFIGURATION:
-# need macbook 14"
-# betterdisplay app, set to 1800x1169
-# open slay the spire from steam
-# see if you like the path/maps you got, otherwise, run this code to re-roll the path/map
 
 # Function to perform the automation
 def automate_clicks():
@@ -60,39 +54,3 @@ def automate_clicks():
 
 # Run the automation
 automate_clicks()
-
-
-
-# Final waiting and click after reroll
-# time.sleep(1.2)
-# pyautogui.click(304, 82) # how to get last position? if last, wait 1.2 seconds, then (304, 82)
-
-
-# os.system("osascript -e 'tell application \"System Events\" to key code 48 using {command down}'")
-
-
-
-# The position is: Point(x=231, y=756)
-# Size(width=1512, height=982)
-
-# make script to clean the below -- use anon info here instead of the directories 
-# jacob@Jacobs-MacBook-Pro ~ % /usr/bin/python3 /Users/jacob/Documents/GitHub/balatro/balatroAuto.py
-# The position is: Point(x=414, y=776)
-# Size(width=1800, height=1169)
-# jacob@Jacobs-MacBook-Pro ~ % /usr/bin/python3 /Users/jacob/Documents/GitHub/balatro/balatroAuto.py
-# The position is: Point(x=818, y=998)
-# Size(width=1800, height=1169)
-# jacob@Jacobs-MacBook-Pro ~ % /usr/bin/python3 /Users/jacob/Documents/GitHub/balatro/balatroAuto.py
-# The position is: Point(x=1388, y=1035)
-# Size(width=1800, height=1169)
-# jacob@Jacobs-MacBook-Pro ~ % /usr/bin/python3 /Users/jacob/Documents/GitHub/balatro/balatroAuto.py
-# The position is: Point(x=467, y=1022)
-# Size(width=1800, height=1169)
-# jacob@Jacobs-MacBook-Pro ~ % 
-
-
-
-
-
-# Press the escape key
-# pyautogui.press('escape')
